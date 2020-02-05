@@ -6,9 +6,6 @@
 <script>
 
 export default {
-  middleware: [
-    'agreement'
-  ],
   // components: {
   //},
   data () {

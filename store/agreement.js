@@ -1,10 +1,10 @@
-export const store = () => ({
-  agreement: false
+export const state = () => ({
+  consent: false
 })
 
 export const mutations = {
-  change (store) {
-    store.agreement = !store.agreement
+  change (state) {
+    state.consent = !state.consent
   }
 }
 
