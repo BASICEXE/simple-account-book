@@ -1,0 +1,52 @@
+$site-width = 1200px
+
+
+// ==== myreset css 
+
+a {
+  text-decoration: none
+}
+
+
+html {
+  font-size: 62.5%
+}
+
+body {
+  font-size: 1.6rem
+  line-height: 1.5em
+}
+
+
+// ==== main css 
+
+.wrapper {
+  height: 100vh
+}
+
+.contents {
+  margin-top: 3rem
+}
+
+.container {
+  max-width: $site-width
+  margin: auto
+}
+
+.gnav {
+  background-color: #999
+  &__inner {
+    max-width: $site-width
+    margin: auto
+    display: flex
+  }
+  &__item {
+    display: block
+    margin: 0 0.5em
+  }
+  &__link {
+    display: block
+    padding: 0.5em 1em
+    color: #fff
+  }
+}
