@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'spa',
   /*
   ** Headers of the page
   */
@@ -13,6 +14,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  css: [
+    'ress'
+  ],
   /*
   ** Customize the progress bar color
   */
